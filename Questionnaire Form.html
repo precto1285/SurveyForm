@@ -13,14 +13,20 @@
 </head>
 <style>
     body {
-        background-image: url("/assets/marijuana-dispensaries-moratorium.jpgmarijuana-dispensary-moratorium.jpg"); */
+        background-image:url("assets/marijuana-dispensaries-moratorium.jpg");
+        background-size: 100%;
         align-content: center;
         padding-left: 45px;
         padding-right: 45px;
     }
-    h1{
-        color:white;
-        text-align:center;
+    #initialQ{
+        padding: 5%;
+        background-color: lightseagreen;
+        border-radius: 35px;
+    }
+    h1 {
+        color: white;
+        text-align: center;
     }
 
     footer {
@@ -29,13 +35,15 @@
         color: white;
         text-align: center;
         padding: 20px;
-        border-radius:35px;
+        border-radius: 35px;
     }
-    .container{
-        background-color:lightblue;
-        opacity: 0.8;
-        padding:2%;
+
+    .container {
+        background-color: lightblue;
+        opacity: 0.9;
+        padding: 2%;
     }
+
     .form-control {
         width: 11%;
     }
@@ -43,46 +51,48 @@
 
 <body>
     <br>
-        <nav class="navbar navbar-dark bg-primary">
-                <h1>CANNABIS SERVICE SURVEY</h1>
-              </nav>
+    <nav class="navbar navbar-dark bg-primary">
+        <h1>DISPENSARY SURVEY</h1>
+    </nav>
     <div class="container">
-            
-        
+
+
         <form>
-            <div class="form-group">
-                <label for="exampleFormControlSelect1">
-                    <h4>a. What Type of Cannabis are you using?</h4>
-                </label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Sativa</option>
-                    <option>Indica</option>
-                    <option>Hybrid (Sativa dominant)</option>
-                    <option>Hybrid (Indica dominant)</option>
-                    <option>Any</option>
-                </select>
-            </div>
+            <div id="initialQ">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">
+                        <h4>a. What Type of Cannabis are you using?</h4>
+                    </label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Sativa</option>
+                        <option>Indica</option>
+                        <option>Hybrid (Sativa dominant)</option>
+                        <option>Hybrid (Indica dominant)</option>
+                        <option>Any</option>
+                    </select>
+                </div>
 
-            <div class="form-group">
-                <label for="exampleFormControlSelect1">
-                    <h4>b. What is your preferred method of consumption?</h4>
-                </label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Smoke</option>
-                    <option>Vape</option>
-                    <option>Edible</option>
-                    <option>Other</option>
-                </select>
-            </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">
+                        <h4>b. What is your preferred method of consumption?</h4>
+                    </label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Smoke</option>
+                        <option>Vape</option>
+                        <option>Edible</option>
+                        <option>Other</option>
+                    </select>
+                </div>
 
-            <div class="form-group">
-                <label for="exampleFormControlSelect1">
-                    <h4>c .Did you try a new product during this purchase?</h4>
-                </label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Yes</option>
-                    <option>No</option>
-                </select>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">
+                        <h4>c .Did you try a new product during this purchase?</h4>
+                    </label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </div>
             </div>
             <hr>
 
